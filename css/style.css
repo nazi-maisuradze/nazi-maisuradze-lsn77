@@ -1,0 +1,267 @@
+.header {
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #40DDB6;
+    z-index: 100;
+}
+
+.logo {
+    width: 200px;
+    height: 38px;
+    padding-top: 13,5px;
+}
+
+body {
+    padding-top: 254px;
+}
+
+.flex-header {
+    display: flex;
+    margin: 53px auto 0 auto;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 1220;
+    height: 65px;
+}
+
+.ul-item {
+    width: 601px;
+    display: flex;
+    margin-right: 40px;
+    margin-left: 135px;
+    align-items: center;
+    justify-content: space-between;
+}
+.li-item {
+    color: #37393F;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+}
+
+.blue {
+    width: 184px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6B77E5;
+ 
+}
+.Consulting {
+    color: #FFFFFF;
+    font-weight: 600;
+    size: 18px;
+    line-height: 21.87px;
+    text-align: center;
+}
+
+.work-section {
+   width: 1220px;
+   margin: 0 auto;
+   margin-bottom: 60px;
+}
+.work-box {
+   text-align: center;
+    /* margin-top: 136px;
+    margin-bottom: 60px;
+    padding-left: 352px;
+    padding-right: 348px; */   
+}
+.Work-Process {
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 21.78px;
+    text-align: center;
+    color: #37393F;
+}
+.work-h {
+    font-weight: 700px;
+    font-size: 40px;
+    line-height: 48.4px;
+    text-align: center;
+    color: #37393F;
+    margin-bottom: 41px;
+}
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper {
+    width: 386px;
+    height: 383px;
+    background-color: #F4F4F4;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.appointment {
+    width: 300px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.appointment1 {
+    font-weight: 600px;
+    font-size: 25px;
+    line-height: 31.75px;
+    color: #37393F;
+    padding: 58PX 70.5PX 0 70.5PX;
+    margin-bottom: 16px;
+   
+   
+}
+.appointment2 {
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 26.31px;
+    color: #7D7D7D;
+    padding-left: 43px;
+    padding-right: 43px;
+    margin-bottom: 37px;
+   
+}
+.appointment3 {
+    font-weight: 600px;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #6B77E5;
+    text-align: center;
+}
+
+.icon {
+    width: 72px;
+    height: 72px;
+    background-color: #40DDB6;
+    border-radius: 100px;
+    display: flex;
+    position: relative;
+}
+.fa-solid.fa-calendar {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50px -50px);
+
+}
+.icon2 {
+    background-color: #6B77E5;
+    width: 72px;
+    height: 72px;
+    border-radius: 100px;
+}
+.icon3 {
+    background-color: #40DDB6;
+    width: 72px;
+    height: 72px;
+    border-radius: 100px;
+}
+
+/*--section2--*/
+
+.background {
+    width: 100%;
+    margin-bottom: 130px;
+    position: relative;  
+}
+.green-image {
+    width: 100%;
+}
+.child {
+    position: absolute;
+    text-align: center;
+    width: 511px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.Short-Video {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #37393F;
+    margin-bottom: 16px;   
+}
+
+.Our-Presentation {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48.4px;
+    margin-bottom: 21px;
+    color: #37393F;
+}
+.Collaboratively {
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 26.31px;
+    margin-bottom: 47px;
+    color: #37393F;
+}
+.pause {
+    width: 64.5px;
+    height: 64.5px;
+    background-color: #6B77E5;
+    border-radius: 20px;
+}
+
+/* section 2 */ 
+
+.three-box-wrapp {
+    width: 1220px;
+    margin: 0 auto 131px auto;
+}
+.team {
+    text-align: center;
+}
+.team-h5{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.78px;
+    color: #37393F;
+}
+.team-h3 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48.4px;
+    color: #37393F;
+    margin-bottom: 41px;
+}
+
+.three-box {
+    width: 1220px;
+    display: flex;
+    column-gap: 31px;
+}
+
+.image-div {
+    position: relative;
+}
+.image-div-txt {
+    width: 341px;
+    height: 114px;
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 396px;
+    left: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.Nattasha {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 37.5px;
+    color: #37393F;
+    margin-bottom: 4px;
+}
+.Nattasha-2 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.33px;
+    color: #7D7D7D;
+}
